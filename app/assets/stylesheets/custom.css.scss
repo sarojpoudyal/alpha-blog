@@ -1,10 +1,13 @@
-$navbar-default-bg: #de3b3b;
+$navbar-default-bg: #800000;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
 a{
   outline: none;
+}
+.navbar{
+  margin-bottom: 0;
 }
 .navbar-brand
 {
@@ -23,4 +26,28 @@ a{
 
 .navbar-toggle {
     z-index:3;
+}
+
+.jumbotron{
+  margin: none;
+  background-image: asset-url('jumbo.jpg') ;
+  background-size: cover;
+}
+.jumbotron > h1 {
+  color: #efefef;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 8rem;
+  letter-spacing: 1rem;
+}
+
+
+
+footer{
+  background-color: #aaa;
+  color: #777;
+  margin-top: 3rem;
+  padding: 1rem 0;
+  border: 1px solid #777;
+  text-align: center;
 }
